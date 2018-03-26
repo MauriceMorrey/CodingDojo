@@ -1,0 +1,14 @@
+var num1 = 77;
+var num2 = 24.43;
+var num3 = -5689;
+var num4 = 324;
+console.log("The first number is:",num1,"The second number is:",num2,"The third number is:",num3,"The fourth number is:",num4);
+var str1 = 'lion';
+var str2 = 'king';
+var str3 = 'simba';
+console.log("The first string is:",str1,"The second string is:",str2,"The third string is:",str3);
+var bool1 = true;
+var bool2 = false;
+console.log("The first boolean is:",bool1,"The first boolean is:",bool2);
+var undefined;
+console.log("The variable value is:",undefined);
