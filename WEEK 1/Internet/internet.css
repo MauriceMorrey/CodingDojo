@@ -64,6 +64,7 @@
        color: blue;
    }
    #navigation button{
+       border-radius: 10px;
        background-color: blue;
        width: 200px;
        height: 55px;
@@ -72,12 +73,13 @@
        margin: 10px 10px 10px 60px;
    }
    #navigation #b{
-    background-color: orange;
-    width: 200px;
-    height: 55px;
-    display: block;
-    padding: 20px;
-    margin: 10px 10px 10px 60px;
+       border-radius: 10px;
+       background-color: orange;
+       width: 200px;
+       height: 55px;
+       display: block;
+       padding: 20px;
+       margin: 10px 10px 10px 60px;
    }
    #navigation hr{
        width: 300px;
@@ -111,6 +113,7 @@
        bottom: 445px;
    }
    #navigation #c{
+       border-radius: 10px;
        background-color: aqua;
        width: 250px;
        height: 60px;

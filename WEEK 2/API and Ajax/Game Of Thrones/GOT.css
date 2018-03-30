@@ -1,0 +1,41 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    /* outline: 1px solid red; */
+}
+#wrapper{
+    width: 960px;
+    height: 900px;
+    display: block;
+    margin: 30px;
+    margin-left: 200px;
+}#wrapper #head{
+    width: 900px;
+    height: 220px;
+    margin:20px;
+    display: inline-block;
+}
+#wrapper #head img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+}
+/*#wrapper #details{
+    width: 500px;
+    height: 200px;
+    display: block;
+    border: 3px solid black; 
+    margin: 30px 0px 30px 200px;
+}*/
+#wrapper #details p{
+    width: 400px;
+    margin: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+fieldset { 
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+}

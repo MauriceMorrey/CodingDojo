@@ -1,0 +1,15 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 1px solid red;
+}
+#boss{
+    width: 200px;
+    height: 400px;
+    display: block;
+    margin-left: 50px;
+}
+#boss h1{
+    width: 400px;
+}

@@ -1,0 +1,39 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    /* outline: 1px solid red; */
+}
+#boss{ 
+    width: 900px;
+    height: 400px;
+    display: block;
+    margin-left: 50px;
+}
+#boss table{
+    width: 200px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+#boss h2{
+    width: 300px;
+    border-bottom: 2px solid grey;
+}
+#boss form{
+    display: block;
+}
+#boss form #fname{
+    display: inline-block;
+}
+#boss form #lname{
+    display: inline-block;
+}
+#boss form #email{
+    display: inline-block;
+}
+#boss form #button{
+    border-radius: 5px;
+    background-color: gray;
+    margin-left: 100px;
+}

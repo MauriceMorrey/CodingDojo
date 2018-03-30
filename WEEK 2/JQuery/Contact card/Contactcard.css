@@ -1,0 +1,46 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 1px solid red;
+}
+#wrapper{ 
+    width: 900px;
+    height: 800px;
+    display: block;
+    margin-left: 50px;
+}
+#wrapper form{
+    width: 400px;
+    height: 700px;
+    display: inline-block;
+}
+#wrapper form label{
+    width: 100px;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#wrapper form input{
+	font-size: 15px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+#wrapper form textarea{
+	font-size: 15px;
+    width: 250px;
+    height: 100px;
+}
+#wrapper form #button{
+	display: block;
+}
+#wrapper form p{
+    width: 200px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#wrapper #contact{
+    width: 400px;
+    height: 100px;
+    display: 
+}

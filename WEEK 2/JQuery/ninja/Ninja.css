@@ -1,0 +1,38 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    /* outline: 1px solid red; */
+}
+#wrapper{
+ width: 1000px;
+ background-color: whitesmoke;
+ margin: 0px auto;
+ padding: 20px 0 20px 20px;
+}
+h1{
+ width: 920px;
+ display: inline-block;
+ font-size: 25px;
+ margin-left: 200px;
+ margin-top: 20px;
+}
+#pic{
+    display: inline-block;
+    width: 700px;
+    height: 600px;
+    margin-left: 200px;
+}
+#pic img{
+    width: 140px;
+    height: 140px;
+    display: inline-block;
+    margin: 10px;
+}
+#pic button{
+    background-color: green;
+    margin: 10px;
+    border-radius: 5px;
+    width: 80px;
+    height: 20px;
+}

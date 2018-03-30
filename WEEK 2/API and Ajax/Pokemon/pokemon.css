@@ -1,0 +1,17 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 1px solid red;
+}
+#wrapper{
+    width: 960px;
+    height: 500px;
+    display: block;
+    margin: 30px;
+}
+#wrapper #poke{
+    width: 900px;
+    height: 450px;
+    margin: 10px;
+}
