@@ -3,17 +3,17 @@ $(document).ready(function() {
     $('img').click(function() {
         var url = 'https://anapioficeandfire.com/api/houses/' + $(this).attr('id') + '/';
         //code here (build up your url)
-        $.get(url, function(res) {
+        $.get(url, function(house) {
             //code here
-            console.log(res);
-            var titles = "<p>Titles: " + res.titles[0];
-            for (var i = 1; i < res.titles.length; i++) {
-                titles += ", " + res.titles[i];
+            console.log(house);
+            var titles = "<p>Titles: " + house.titles[0];
+            for (var i = 1; i < house.titles.length; i++) {
+                titles += ", " + house.titles[i];
             }
             titles += "</p>";
             $('#details').html(
-                "<p>Name: " + res.name + "</p>" +
-                "<p>Words: " + res.words + "</p>" +
+                "<p>Name: " + house.name + "</p>" +
+                "<p>Words: " + house.words + "</p>" +
                 titles
             )
         }, 'json');
